@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "code": "int main(){vector<pair<vector<int>,int>>testCases={{ {2,7,11,15},9},{ {3,2,4},6},{ {3,3},6}};cout<<\"[\"<<endl;for(auto&testCase:testCases){auto&nums=testCase.first;int target=testCase.second;vector<int>indices=twoSum(nums,target); cout<<\"[\";for(int i=0;i<indices.size();++i){cout<<indices[i];if(i<indices.size()-1){cout<<\",\";}}cout<<\"]\";cout<<\",\"<<endl;} cout<<\"]\"; return 0;}"
+    },
+    {
+        "id": 2,
+        "code": "int main(){vector<int> testCases={121,-121,10};cout<<\"[\";for(int i=0;i<testCases.size();++i){int number=testCases[i];bool result=isPalindrome(number);cout<<(result?\"true\":\"false\");if(i<testCases.size()-1) cout<<\",\";}cout<<\"]\"<<endl;return 0;}"
+    }
+]
